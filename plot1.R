@@ -20,8 +20,6 @@ hist(DF$Global_active_power, breaks = 16, col = "red", main = "Global Active Pow
 dev.copy(png, file = "plot1.png", width = 480, height = 480)
 dev.off()
 
-#create line graph
-with(DF, plot(date_time, Global_active_power, type = "l"))
 
 
                      
